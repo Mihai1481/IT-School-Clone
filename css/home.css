@@ -143,3 +143,102 @@
     vertical-align: middle;
     /* aliniem pe verticala elementele inline */
 }
+
+.course .date, 
+.courses .place {
+    padding: var(--spacing-tiny);
+}
+
+.courses .place{
+    background-color: var(--text-secondary);
+    margin-left: var(--spacing-tiny);
+}
+
+.course .bar{
+    height: var(--spacing-tiny);
+    background-color: var(--button-color);
+    border-radius: 10px;
+}
+
+/* Who we are section */
+
+.who-we-are{
+    background-color: var(--text-secondary);
+
+}
+
+.who-we-are .container.grid{
+    padding: var(--spacing-medium) var(--spacing-small);
+}
+
+.who-we-are h2{
+    padding-top: var(--spacing-large);
+
+}
+
+.who-we-are h2, .who-we-are p{
+    margin-bottom: var(--spacing-large);
+    text-align: center;
+}
+
+.who-we-are .container.grid p{
+    
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+}
+
+.who-we-are .images-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-large);
+}
+
+.who-we-are .image-wrapper{
+    width: calc(100% /3);
+    padding-right: var(--spacing-small);
+    padding-right: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+}
+
+.who-we-are img{
+    width: 100%;
+    height: auto;
+}
+
+/* partners section */
+
+.parteners h2{
+    padding-top: var(--spacing-large);
+    text-align: center;
+
+}
+
+.parteners h2, .parteners .parteners-container{
+    margin-bottom: var(--spacing-large);
+}
+
+.parteners .parteners-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 var(--spacing-xl);
+   
+}
+
+.parteners .image-wrapper{
+    width: 100px;
+    margin-right: var(--spacing-xl);
+    margin-left: var(--spacing-xl);
+    margin-bottom: var(--spacing-medium);
+}
+
+.parteners img{
+    width: 100%;
+    height: auto;
+    /* facem pozele gri */
+    filter: grayscale(100%);
+}
+
+.parteners img:hover{
+    filter: grayscale(0%);
+}
