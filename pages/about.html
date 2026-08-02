@@ -10,34 +10,123 @@
     <!-- Includem Iconitile -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
-    <!-- Includem fisierele noastre css -->
+    
     <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/about.css">
 </head>
 <body>
 
-     <nav>
-    <a href="index.html" class="logo-link">
-        <img src="../img/itschool-logo.png" alt="itschool logo"/>
-    </a>
-    <ul>
-        <li>
-            <a href="pages/courses.html">Cursuri Online</a>
-        </li>
-        <li class="about-us">
-            <a href="pages/about.html">
-                Despre noi
-                <!-- iconita luata de pe material icons -->
-                <span class="material-symbols-outlined arrow-down-icon">
-                    arrow_drop_down
-                </span>
-            </a>
-        </li>
-        <li>
-            <a href="pages/contact.html">Contact</a>
-        </li>
+<nav>
+    <div class="container">
+        <a href="../index.html" class="logo-link">
+            <img src="../img/itschool-logo.png" alt="itschool logo"/>
+        </a>
+        <div class="menu-icon-container">
+        <span class="material-symbols-outlined menu-icon">
+            menu
+        </span>
+        <input type="checkbox"/>
         
-    </ul>  
+            <ul>
+                <li>
+                    <a href="courses.html">Cursuri Online</a>
+                </li>
+                <li class="about-us">
+                    <a href="#">
+                        Despre noi
+                        <!-- iconita luata de pe material icons -->
+                        <span class="material-symbols-outlined arrow-down-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <!-- submeniul afisat la hover pe despre noi -->
+                     <div class="submenu">
+                        <a href="#">It School</a>
+                        <a href="https://itschool.ro/certificari">Certificari</a>
+                     </div>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul> 
+        </div>  
+    </div> 
 </nav> 
     
+<section class="header">
+     <h1>Trainerii IT School</h1>
+</section>
+
+<section class="container about-us">
+    <div class="our-trainers">
+        <p>Trainerii nostrii</p>
+        <h2>Descoperă universul IT, alături de profesioniști din industrie!</h2>
+        <p>Programele de pregătire IT School sunt create alături de experți din domeniu. Fiecare lector din comunitatea noastră contribuie în dezvoltarea, actualizarea și rafinarea curriculei de curs, pentru ca pregătirea ta să fie mereu ancorată în tendințele industriei. Trainerii noștri practică zi de zi, la job sau în cadrul proiectelor de freelancing, tehnologiile pe care le predau. Cunoștințele acumulate în cadrul cursurilor IT School reprezintă astfel un must-have pentru joburile de începători.</p>
+        <span>La cursuri, expertiza lectorilor este transferată cursanților, prin tehnici de învățare bazate pe practică și scenarii reale. Learn by doing & learn from doers sunt valori după care ne ghidăm în activitățile de predare.</span>
+        <p></p>
+    </div>
+
+    <div class="join-us">
+        <p>Alatura-te Echipei</p>
+        <h2>Contribuie la formarea viitorilor tăi colegi de breaslă!</h2>
+        <p>Ți-a plăcut mereu să împărtășești din know-how-ul tău și altora? La IT School suntem în căutare de oameni pasionați, profesioniști din domeniu, dornici să transmită experiența lor mai departe. Cursurile se desfășoară after hours, de două ori pe săptămână, iar orarul sesiunilor de training îl stabilim împreună. Noi ne îngrijim de toată logistica organizării cursului, astfel ca tu să te poți concentra doar pe teaching.</p>
+        <span></span>
+        <p>Dacă ai experiență relevantă în domeniu ca dev, tester sau designer, ești echipat cu răbdare, creativitate și energie, te invităm să faci parte din comunitatea noastră de traineri. Aplică prin completarea formularului de mai jos./p>
+    </div>
+
+    <button>Devino Trainer</button>
+</section>
+
+<section class="container trainers">
+    <p>WEB DEVELOPMENT</p>
+    <div class="trainers-cards">
+        <div class="trainer">
+            <img/>
+            <div class="trainer-information">
+                <h3>Razvan Cirlugea</h3>
+                <p>Front-end Developer</p>
+                <p>„Specialitatea mea este Front-End Development-ul, așadar limbajul meu de programare de suflet este JavaScript. Bineînțeles, dacă vorbim de Front-End, alți camarazi buni de-ai mei sunt HTML și CSS (chit că nu sunt limbaje de programare)." Răzvan a devenit trainer înainte de a lucra full-time ca și programator. În timpul liber, îi place să se uite la fotbal, joacă des ping pong și e pasionat de psihologie, neuroștiință și bere artizanală. Sfatul lui pentru începătorii în IT este să-și aleagă un domeniu interesant și potrivit pentru ei și apoi să-ți investească toate resursele în direcția aleasă.</p>
+            </div>
+        </div>
+    </div>
+    <div class="trainers-cards">
+        <div class="trainer">
+            <img/>
+            <div class="trainer-information">
+                <h3>Razvan Cirlugea</h3>
+                <p>Front-end Developer</p>
+                <p>„Specialitatea mea este Front-End Development-ul, așadar limbajul meu de programare de suflet este JavaScript. Bineînțeles, dacă vorbim de Front-End, alți camarazi buni de-ai mei sunt HTML și CSS (chit că nu sunt limbaje de programare)." Răzvan a devenit trainer înainte de a lucra full-time ca și programator. În timpul liber, îi place să se uite la fotbal, joacă des ping pong și e pasionat de psihologie, neuroștiință și bere artizanală. Sfatul lui pentru începătorii în IT este să-și aleagă un domeniu interesant și potrivit pentru ei și apoi să-ți investească toate resursele în direcția aleasă.</p>
+            </div>
+        </div>
+    </div>
+    <div class="trainers-cards">
+        <div class="trainer">
+            <img/>
+            <div class="trainer-information">
+                <h3>Razvan Cirlugea</h3>
+                <p>Front-end Developer</p>
+                <p>„Specialitatea mea este Front-End Development-ul, așadar limbajul meu de programare de suflet este JavaScript. Bineînțeles, dacă vorbim de Front-End, alți camarazi buni de-ai mei sunt HTML și CSS (chit că nu sunt limbaje de programare)." Răzvan a devenit trainer înainte de a lucra full-time ca și programator. În timpul liber, îi place să se uite la fotbal, joacă des ping pong și e pasionat de psihologie, neuroștiință și bere artizanală. Sfatul lui pentru începătorii în IT este să-și aleagă un domeniu interesant și potrivit pentru ei și apoi să-ți investească toate resursele în direcția aleasă.</p>
+            </div>
+        </div>
+    </div>
+    <div class="trainers-cards">
+        <div class="trainer">
+            <img/>
+            <div class="trainer-information">
+                <h3>Razvan Cirlugea</h3>
+                <p>Front-end Developer</p>
+                <p>„Specialitatea mea este Front-End Development-ul, așadar limbajul meu de programare de suflet este JavaScript. Bineînțeles, dacă vorbim de Front-End, alți camarazi buni de-ai mei sunt HTML și CSS (chit că nu sunt limbaje de programare)." Răzvan a devenit trainer înainte de a lucra full-time ca și programator. În timpul liber, îi place să se uite la fotbal, joacă des ping pong și e pasionat de psihologie, neuroștiință și bere artizanală. Sfatul lui pentru începătorii în IT este să-și aleagă un domeniu interesant și potrivit pentru ei și apoi să-ți investească toate resursele în direcția aleasă.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+        <div class="container">
+            <p>IT School © 2026</p>
+        </div>
+   </footer>
+
+
 </body>
 </html>

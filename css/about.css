@@ -1,0 +1,32 @@
+.container{
+    max-width: 1200px;
+    min-width: 320px;
+
+    margin: auto;
+    padding: var(--spacing-medium);
+}
+
+.header{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    margin-top: 80px;
+    background-image: url(https://itschool.ro/images/about-trainers/hero-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.header h1{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    font-size: 2rem;
+    font-weight: 500;
+}
