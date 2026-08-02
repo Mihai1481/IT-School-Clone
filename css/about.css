@@ -30,3 +30,52 @@
     font-size: 2rem;
     font-weight: 500;
 }
+
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.about-us-content div{
+    display: flex;
+}
+
+.our-trainers,.join-us{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2);
+    height: auto;
+    padding-right: var(--spacing-large);
+    padding-left: var(--spacing-large);
+    margin-bottom: var(--spacing-medium);
+}
+
+section p{
+    font-size: var(--fs-medium);
+}
+
+section h3{
+    font-size: 2rem;
+}
+
+.about-us-content button{
+    display: block;
+    padding: 0.75rem 1.75rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #009979 0%, #00d7b0 100%);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.about-us-content button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 1.75rem rgba(0, 0, 0, 0.16);
+    background: linear-gradient(135deg, #00b38c 0%, #00f0c3 100%);
+}
