@@ -23,11 +23,15 @@
 
 
 
+
 .courses-header{
-    padding: var(--spacing-medium) var(--spacing-large);
+    height: 60vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 125px;
     background-color: var(--bg-courses-header);
     color: var(--text-light);
-    padding-bottom: var(--spacing-large);
 }
 
 .reducere{
@@ -114,18 +118,21 @@ p.course-type{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-medium);
-  
+    margin-bottom: var(--spacing-large);
     
 }
 .course-card{
+   
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
     width: 100%;
     height: 25rem;
     border-radius: 1rem;
     box-shadow: rgba(25, 30, 48, 0.1) 0px 1.25rem 2.5rem 0px;
     background-color: rgb(253, 253, 253);
+    
     padding: 1rem 1rem;
   
 }
