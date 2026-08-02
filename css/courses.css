@@ -159,16 +159,22 @@ p.course-type{
     }
 
     .courses-header{
-        padding:  var(--spacing-small) var(--spacing-tiny);
+        height: auto;
+        padding-bottom: var(--spacing-xl); 
     }
 
-    .courses-header h1,span{
-        font-size: 1rem;
+    .courses-header div{
+        text-align: center;
+    }
+
+    .courses-header h1,
+    .courses-header span{
+        font-size: 1.2rem;
         font-weight: 700;
     }
 
     .courses-header p{
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
 
 } 
